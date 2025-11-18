@@ -71,7 +71,7 @@
         // TODO 2 - Variable declarations
         var positionX = 0
         var points = 0;
-        potitonX = potitonX + 10
+        var speed = 10
 
 
         
@@ -82,7 +82,7 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-         moveBoxTo(200);
+        positionX = positionX + speed;
          moveBoxTo(positionX)
 
         
@@ -101,7 +101,7 @@
           positionX = 0;
           changeBoxText(points);
           points = points + 1
-           positionX = positionX + 10
+           speed = speed + 3
 
 
 
