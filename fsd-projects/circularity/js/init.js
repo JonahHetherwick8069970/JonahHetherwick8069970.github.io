@@ -20,8 +20,8 @@ var init = function (window) {
         ///////////////////
         
         // TODO 1 : Declare and initialize our variables
-varCircles
-varCircles[]
+var circle
+var circles = []
 
         // TODO 2 : Create a function that draws a circle 
         
@@ -77,11 +77,11 @@ drawCircle()
 
             
             // TODO 5 : Call game.checkCirclePosition() on your circles
-           game.checkCirclePosition(circles[ 0 ])
+
 
             // TODO 8 / TODO 9 : Iterate over the array
            
-            
+ }
         }
     
         /* 
